@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador - Altura</title>
+</head>
+
+<body>
+
+    <form action="">
+        <label for="">Altura:</label> <input type="number" id="altura">
+        <label for="feminino">F</label> <input type="radio" name="sexo" id="feminino" value="0" checked>
+        <label for="masculino">M</label> <input type="radio" name="sexo" id="masculino" value="1">
+        <input type="button" value="Enviar" onclick="enviar()">
+    </form>
+
+    <div id="result">
+        qtd e sexo f
+    </div>
+
+    <div id="resultsexo">
+        qtd e sexo m
+    </div>
+
+    <div id="resultaltura">
+        alto
+    </div>
+
+    <div id="resultmenor">
+        baixo
+    </div>
+    
+    <script src="funcoes.js"></script>
+    
+</body>
+</html>
